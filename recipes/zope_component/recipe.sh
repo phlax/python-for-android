@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 VERSION_zope_component=3.12.0
 URL_zope_component=http://pypi.python.org/packages/source/z/zope.component/zope.component-$VERSION_zope_component.tar.gz
 DEPS_zope_component=(setuptools zope_event)
