@@ -2,7 +2,7 @@
 
 VERSION_zope_component=3.12.0
 URL_zope_component=http://pypi.python.org/packages/source/z/zope.component/zope.component-$VERSION_zope_component.tar.gz
-DEPS_zope_component=(setuptools zope_event)
+DEPS_zope_component=(setuptools zope_interface zope_event)
 MD5_zope_component=1002e3be68c56751335c185f01b286fb
 BUILD_zope_component=$BUILD_PATH/zope_component/$(get_directory $URL_zope_component)
 RECIPE_zope_component=$RECIPES_PATH/zope_component

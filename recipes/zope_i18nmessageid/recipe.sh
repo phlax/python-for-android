@@ -2,7 +2,7 @@
 
 VERSION_zope_i18nmessageid=3.6.1
 URL_zope_i18nmessageid=http://pypi.python.org/packages/source/z/zope.i18nmessageid/zope.i18nmessageid-$VERSION_zope_i18nmessageid.tar.gz
-DEPS_zope_i18nmessageid=(setuptools zope)
+DEPS_zope_i18nmessageid=(setuptools zope_interface)
 MD5_zope_i18nmessageid=6716cd769c006b5e90af030f83592600
 BUILD_zope_i18nmessageid=$BUILD_PATH/zope_i18nmessageid/$(get_directory $URL_zope_i18nmessageid)
 RECIPE_zope_i18nmessageid=$RECIPES_PATH/zope_i18nmessageid
