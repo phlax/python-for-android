@@ -1,0 +1,21 @@
+*** Django-1.3.1/django/core/management/__init__.py	2011-02-21 13:45:57.000000000 +0000
+--- Django-1.3.1-patched/django/core/management/__init__.py	2012-03-17 14:41:08.178249409 +0000
+***************
+*** 23,30 ****
+      """
+      command_dir = os.path.join(management_dir, 'commands')
+      try:
+!         return [f[:-3] for f in os.listdir(command_dir)
+!                 if not f.startswith('_') and f.endswith('.py')]
+      except OSError:
+          return []
+  
+--- 23,30 ----
+      """
+      command_dir = os.path.join(management_dir, 'commands')
+      try:
+!         return [f[:-4] for f in os.listdir(command_dir)
+!                 if not f.startswith('_') and f.endswith('.pyo')]
+      except OSError:
+          return []
+  
