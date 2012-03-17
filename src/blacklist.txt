@@ -69,7 +69,6 @@ dummy_threading.pyo
 audiodev.pyo
 antigravity.pyo
 dumbdbm.pyo
-sndhdr.pyo
 __phello__.foo.pyo
 sunaudio.pyo
 os2emxpath.pyo
