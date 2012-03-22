@@ -2,7 +2,7 @@
 
 #VERSION_bit_bot_shell=3.8.0
 #URL_bit_bot_shell=http://pypi.python.org/packages/source/z/zope.configuration/zope.configuration-$VERSION_bit_bot_shell.tar.gz
-DEPS_bit_bot_shell=(openssl libxml2 hostpython python pyopenssl setuptools zope_component_architecture twisted kivy bit_core bit_bot_common bit_bot_base bit_bot_platform)
+DEPS_bit_bot_shell=(openssl libxml2 hostpython python pyopenssl setuptools zope_component_architecture twisted kivy bit_core bit_bot_common bit_bot_base)
 #MD5_bit_bot_shell=#8ab837320b4532774c9c89f030d2a389
 
 BUILD_bit_bot_shell=$BUILD_PATH/bit_bot_shell

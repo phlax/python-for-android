@@ -2,7 +2,7 @@
 
 #VERSION_bit_bot_xmpp=3.8.0
 #URL_bit_bot_xmpp=xmpp://pypi.python.org/packages/source/z/zope.configuration/zope.configuration-$VERSION_bit_bot_xmpp.tar.gz
-DEPS_bit_bot_xmpp=(openssl libxml2 hostpython python pyopenssl setuptools zope_component_architecture twisted kivy bit_core bit_bot_common bit_bot_base bit_bot_platform wokkel)
+DEPS_bit_bot_xmpp=(openssl libxml2 hostpython python pyopenssl setuptools zope_component_architecture twisted kivy bit_core bit_bot_common bit_bot_base wokkel)
 #MD5_bit_bot_xmpp=#8ab837320b4532774c9c89f030d2a389
 
 BUILD_bit_bot_xmpp=$BUILD_PATH/bit_bot_xmpp
